@@ -115,6 +115,16 @@ main { position: relative; z-index: 2; }
   100% { box-shadow: 0 0 0 0 rgba(163,255,18,0); }
 }
 
+.hero__dragon {
+  display: block;
+  width: 100%; max-width: 640px; height: auto;
+  margin: 0 0 30px;
+  image-rendering: pixelated;
+  border: 1px solid var(--panel-brd);
+  border-radius: 14px;
+  background: #060a07;
+}
+
 .hero__title {
   font-size: clamp(2.6rem, 7.4vw, 5.1rem);
   line-height: 1.02; letter-spacing: -0.045em; font-weight: 800;
